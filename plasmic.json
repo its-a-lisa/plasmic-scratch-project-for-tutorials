@@ -1,0 +1,127 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "7iJScHjybMvBcsDw91ght1",
+      "projectApiToken": "d8Sz3dGYxv6Xfnc0Ck5z2uzpfcjKv1k1MsUgNwRydYtknmFfXXKLWMgUzfOXBmyKwCcQZySHFi3EAMlPlF2A",
+      "projectName": "plasmic-scratch-project-for-tutorials",
+      "version": "latest",
+      "cssFilePath": "plasmic/plasmic_scratch_project_for_tutorials/plasmic_plasmic_scratch_project_for_tutorials.module.css",
+      "components": [
+        {
+          "id": "fwQ0iN_RrKsk",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "7iJScHjybMvBcsDw91ght1",
+          "renderModuleFilePath": "plasmic/plasmic_scratch_project_for_tutorials/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/plasmic_scratch_project_for_tutorials/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "dzRUhsfgAQcP",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "7iJScHjybMvBcsDw91ght1",
+          "renderModuleFilePath": "plasmic/plasmic_scratch_project_for_tutorials/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/plasmic_scratch_project_for_tutorials/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "7VOIeAEfhIHt",
+          "name": "Item",
+          "type": "managed",
+          "projectId": "7iJScHjybMvBcsDw91ght1",
+          "renderModuleFilePath": "plasmic/plasmic_scratch_project_for_tutorials/PlasmicItem.tsx",
+          "importSpec": {
+            "modulePath": "Item.tsx"
+          },
+          "cssFilePath": "plasmic/plasmic_scratch_project_for_tutorials/PlasmicItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "aMra_7VYBJlG",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/plasmic_scratch_project_for_tutorials/icons/PlasmicIcon__Squaresvg.tsx"
+        },
+        {
+          "id": "Sm6FMvqIMiCf",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/plasmic_scratch_project_for_tutorials/icons/PlasmicIcon__SquareCheckFilledsvg.tsx"
+        },
+        {
+          "id": "co2PemCmsZBz",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/plasmic_scratch_project_for_tutorials/icons/PlasmicIcon__SquareMinussvg.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "O6_1THF27exy",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "gKHVz8Jv9Wer",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "QDfW5sDQWl61",
+        "name": "Screen",
+        "projectId": "7iJScHjybMvBcsDw91ght1",
+        "contextFilePath": "plasmic/plasmic_scratch_project_for_tutorials/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.322",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.322/dist/plasmic.schema.json"
+}
